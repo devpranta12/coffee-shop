@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Css Start */
+.header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.header a img{
+    width: 70px;
+    height: 60px;
+}
+.header .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin:0px 4px;
+    transition: 0.3s;
+}
+.header .navbar a:hover{
+    color: white;
+    border-bottom: 1px solid #d3ad7f;
+}
+.header .icons .icons-button{
+    color: white;
+    margin: 0px 10px;
+}
+/* Header Css End */
+/* Banner css start */
+.banner{
+    width: 100vw;
+    height: 80vh;
+    background-image: url("/images/home-img.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
