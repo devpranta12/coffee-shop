@@ -42,5 +42,28 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+.banner h1{
+    color: white;
+    font-size: 50px;
+}
+.banner p{
+    color: white;
+}
+.banner button{
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: yellow;
+    font-weight: 700;
+    outline: 0;
+    border: 0;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.banner button:hover{
+    letter-spacing: 2px;
 }
 /* Banner Css End */
